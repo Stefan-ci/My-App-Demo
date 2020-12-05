@@ -1,0 +1,183 @@
+/*
+_________________________________
+_________________________________
+_________________________________
+
+    🔥Created by: Stefan 🇨🇮
+    🔥Credits: Stefan 🇨🇮
+    🔥Created on: December‚ 1st
+    🔥Updated on: December‚ 4th 2020
+    🔥Published on: December‚ 5th 2020.
+_________________________________
+_________________________________
+_________________________________
+
+*/
+
+body{
+  background: #ebecf0;
+  top: 50%;
+  left: 50%;
+}
+
+body, input, button{
+  font-family: Verdana, Tahoma sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+h1{
+  font-size: 30px;
+  font-family: Verdana, Tahoma, sans-serif;
+  letter-spacing: 3px;
+}
+
+div{
+  background: #ebecf0;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+form{
+  padding: 10px;
+  width: 270px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 2px #babecc, inset -2px -2px 10px #fff;
+}
+
+.segment{
+  color: #61677c;
+  text-align : center;
+  padding: 20px 0;
+}
+
+button, input{
+  border: 0;
+  outline: 0;
+  background: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+input{
+  font-size: small;
+  width: 250px;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  transition: all 0.2s ease-in-out;
+  appearance: : none;
+}
+
+input:focus{
+  box-shadow: inset 1px 1px 2px #babecc, inset 1px 1px 2px #fff;
+}
+
+button{
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #61677c;
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  box-shadow: -2px -2px 10px rgba(0,0,0,0.1), 2px 2px 10px #babecc;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+
+button:hover{
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+button:active{
+  box-shadow: inset 1px 1px 2px #babecc, 1px 1px 2px #fff;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button .icon{
+  margin-right: 5px;
+}
+
+.unit{
+  padding: 0;
+  margin: 0 3px;
+  font-size: 20px;
+  border-radius: 8px;
+  line-height: 0;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.unit .icon{
+  margin-right: 0;
+}
+
+.blue-text{
+  display: block;
+  width: 150px;
+  color: #087fff;
+}
+
+#forgot{
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+ 
+#forgot:hover {
+  color: coral;
+}
+
+
+/* Error session */
+#error_session{
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.ketchup svg{
+  width: 80%;
+  margin-top: -70px;
+  margin-left: 40px;
+}
+
+
+/* App session after connection */
+#my_app{
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffee svg{
+  width: 50%;
+  margin-top: -50px;
+}
+ 
+.skewer svg{
+  width: 50%;
+  margin-top: -500px;
+  margin-left: 175px;
+}
+
+#my_app h3{
+  color: blue;
+  text-align: center;
+  margin-top: -120px;
+}
+
